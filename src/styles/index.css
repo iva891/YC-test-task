@@ -582,7 +582,7 @@ body {
 }
 
 .transformation__steps {
-  overflow: scroll;
+  overflow-x: scroll;
   display: flex;
   flex-direction: row;
   font-family: "Golos Text", serif;
@@ -596,6 +596,7 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .transformation__steps {
+    overflow-x: auto;
     font-size: 20px;
     line-height: 24px;
     display: grid;
@@ -687,7 +688,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  overflow: scroll;
+  overflow-x: scroll;
   list-style: none;
   padding: 0;
   margin: calc(var(--space) * 10) 0 0 0;
